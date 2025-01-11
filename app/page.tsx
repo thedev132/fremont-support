@@ -24,7 +24,7 @@ export default function Page() {
           <CardContent>
             <p className="mb-4">To access the admin panel, visit <a href="https://fremont-app.vercel.app/admin" className="text-blue-600 dark:text-blue-400 hover:underline">https://fremont-app.vercel.app</a>. Sign in using your FUHSD Google Account.</p>
             <Button asChild>
-              <a href="https://fremont-app.vercel.app" target="_blank" rel="noopener noreferrer">Access Admin Panel</a>
+              <a href="https://fremont-app.vercel.app/admin" target="_blank" rel="noopener noreferrer">Access Admin Panel</a>
             </Button>
           </CardContent>
         </Card>
