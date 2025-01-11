@@ -22,7 +22,7 @@ export default function Page() {
             <CardDescription>Manage app features for club officers, advisors, ASB members, and staff.</CardDescription>
           </CardHeader>
           <CardContent>
-            <p className="mb-4">To access the admin panel, visit <a href="https://fremont-app.vercel.app" className="text-blue-600 dark:text-blue-400 hover:underline">https://fremont-app.vercel.app</a>. Sign in using your FUHSD Google Account.</p>
+            <p className="mb-4">To access the admin panel, visit <a href="https://fremont-app.vercel.app/admin" className="text-blue-600 dark:text-blue-400 hover:underline">https://fremont-app.vercel.app</a>. Sign in using your FUHSD Google Account.</p>
             <Button asChild>
               <a href="https://fremont-app.vercel.app" target="_blank" rel="noopener noreferrer">Access Admin Panel</a>
             </Button>
@@ -37,7 +37,6 @@ export default function Page() {
             <p className="font-semibold">Mohamad Mortada, Lead App Developer and Creator</p>
             <ul className="list-disc list-inside mt-2 space-y-1">
               <li>Email: <a href="mailto:mmortada685@gmail.com" className="text-blue-600 dark:text-blue-400 hover:underline">mmortada685@gmail.com</a></li>
-              <li>Instagram: <a href="https://www.instagram.com/mohamad_mortada" target="_blank" rel="noopener noreferrer" className="text-blue-600 dark:text-blue-400 hover:underline">mohamad_mortada</a></li>
               <li>Discord: thedev132</li>
             </ul>
           </CardContent>
